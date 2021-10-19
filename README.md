@@ -10,3 +10,7 @@
 - `confidence_scores_by_country.csv` holds confidence scores by country:
   - Confidence score falls in \[0.0,1.0\]
   - The higher the score, the higher the confidence
+
+## /data
+
+- All raw data and question meta data such as question importances are located in this folder.

@@ -1,0 +1,24 @@
+Item,Category,Keyword,DependentOn,MootDependency
+T1,Policy Transparency,In public docs,--,TRUE
+T2,Policy Transparency,In statements,--,TRUE
+T3,Policy Transparency,Budget,--,TRUE
+T11,Policy Transparency,Budget,T3,FALSE
+T6,Policy Transparency,Representation,"T1,T2",TRUE
+A1,Policy Transparency,Representation,T6,FALSE
+T4,Undocumented Access,Inclusion,T1,FALSE
+T5,Undocumented Access,Inclusion,T2,FALSE
+A3,Undocumented Access,ID,"T4,T9",FALSE
+A11,Undocumented Access,Same Basis,T4,FALSE
+A12,Undocumented Access,Vaccine Subsidy,T4,FALSE
+A13,Undocumented Access,Vaccine Choice,T4,FALSE
+T9,Identification and Residency Requirements,ID,"T1,T2",TRUE
+T10,Identification and Residency Requirements,Residency,"T1,T2",TRUE
+T7,Marginalized Access,Housing,"T1,T2",TRUE
+A18,Marginalized Access,Incarcerated,T7,FALSE
+A19,Marginalized Access,Internet,--,TRUE
+A21,Marginalized Access,Mobile,--,TRUE
+A26,Marginalized Access,Misinformation,--,TRUE
+A27,Marginalized Access,Cultural Difference,--,TRUE
+T12,Privacy Guarantees,Data Privacy,T4,FALSE
+A5,Privacy Guarantees,Data Privacy,T12,FALSE
+A31,Privacy Guarantees,Certificate,--,TRUE
