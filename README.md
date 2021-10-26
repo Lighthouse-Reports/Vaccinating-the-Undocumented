@@ -16,6 +16,7 @@
 ### /data
 
 - All raw data and question meta data such as question importances are located in this folder.
+- See code book inside /data folder for details.
 
 ## How to Run the Notebooks
 
